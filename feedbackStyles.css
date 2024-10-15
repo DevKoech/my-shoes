@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+nav {
+    unicode-bidi: isolate;
+    display: block;
+}
+nav ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+nav ul li {
+    display: inline
+    margin-right 20px;
+}
+nav div span {
+    font-size: xx-large;
+    font-family: fantasy;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+}
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    line-height: 1.5;
+    color: #343531;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #333;
+
+}
+section {
+    display: flex;
+    align-items: center;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.contact h2{
+    font-size: 40px;
+    color: #ededed;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact form{
+    width: 600px;
+    text-align: center;
+}
+
+form .input-box{
+    display: flex;
+    justify-content: space-between;
+}
+.input-box .input-field{
+    width: 48px,5%;
+}
+.field .item{
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid beige;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: aliceblue;
+    margin: 12px 0;
+}
+
+.field.error .item{
+    border: color #d93025;
+
+}
+
+.field .item::placeholder{
+    color: rgba(255, 255, 255, .3);
+}
+
+.field .error-txt {
+    font-size: 14.5px;
+    color: #d93025;
+    text-align: left;
+    margin: -5px 0 10px;
+    display: none;
+}
+
+.field.error .error-txt{
+    display: block;
+}
+form .textarea-field .item{
+    resize: none;
+}
+
+form button{
+    padding: 12px 32px;
+    background: beige;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #696464;
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form button:hover {
+    box-shadow: none;
+}
